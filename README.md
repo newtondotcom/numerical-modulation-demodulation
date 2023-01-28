@@ -8,13 +8,7 @@ This project was realized during my engineering studies in Digital Sciences at E
 
 
 # French notice : 
-+---------------------------------------------------------------------------+
-|
-|
-|         Comment utiliser les 4 fichiers fournis ? 
-|
-|
-+---------------------------------------------------------------------------+
++---------------------------Comment utiliser les 4 fichiers fournis ? ----------------------------------+
 
 (:_:_:) - mod_demod_filtrage.m
 But : Modulation et démodulation par filtrage passe-haut et passe-bas
