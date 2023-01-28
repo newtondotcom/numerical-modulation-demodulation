@@ -5,3 +5,33 @@ The second one consists of a FSK demodulation (Frequence Shift Keying) according
 The third one consists of a FSK demodulation with carrier phase error management (implemented in codes/mod_demod_v21_gestion.m)
 
 This project was realized during my engineering studies in Digital Sciences at ENSEEIHT.
+
+
+# French notice : 
++---------------------------------------------------------------------------+
+|
+|
+|         Comment utiliser les 4 fichiers fournis ? 
+|
+|
++---------------------------------------------------------------------------+
+
+(:_:_:) - mod_demod_filtrage.m
+But : Modulation et démodulation par filtrage passe-haut et passe-bas
+Paramètres : Les constantes f_s, f_e et np peuvent être modifiées.
+Dépendances : Ce fichier peut être executé indépendamment. 
+
+(:_:_:) - mod_demod_v21.m
+But : Démodulateur de fréquence (FSK) adapté à la norme V21
+Paramètres : Les constantes f_s, f_e et np peuvent être modifiées.
+Dépendances : Ce fichier peut être executé indépendamment. 
+
+(:_:_:) - mod_demod_v21gestion.m
+But : Démodulateur de fréquence adapté à la norme V21 avec gestion d'erreur de phase porteuse
+Dépendances : Ce fichier peut être executé indépendamment. 
+
+(:_:_:) - gen_image.m
+But : Démoduler les fichiers contenant les images afin de reconstituer l'image entière. On propose ensuite à l'utilisateur d l'enregistrer.
+Dépendances :  Nécéssite la présence de reconstitution_image.m et des fichiersi.m pour i de 1 à 6 dans son répertoire.
+
+
